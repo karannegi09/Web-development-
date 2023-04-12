@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Monkey D. Luffy Image Map</title>
+  </head>
+  <body>
+    <h1>Monkey D. Luffy Image Map</h1>
+    <img src="https://staticg.sportskeeda.com/editor/2022/04/64bd4-16509084197098-1920.jpg" alt="Monkey D. Luffy" usemap="#luffymap">
+    <map name="luffymap">
+      <area shape="rect" coords="38,129,115,267" alt="Hot Spot 1" href="#" onclick="showInfo('Name: Monkey D. Luffy<br>Age: 19<br>Bounty: 1.5 billion berries<br>Occupation: Pirate Captain')">
+      <area shape="rect" coords="125,111,201,243" alt="Hot Spot 2" href="#" onclick="showInfo('Devil Fruit: Gomu Gomu no Mi<br>Abilities: Gear Second, Gear Third, Gear Fourth, Haki<br>Crew: Straw Hat Pirates')">
+      <area shape="rect" coords="206,130,284,266" alt="Hot Spot 3" href="#" onclick="showInfo('Dream: Become the Pirate King<br>Personality: Determined, optimistic, caring, and reckless<br>Origins: East Blue')">
+    </map>
+    <div id="info"></div>
+    <script>
+      function showInfo(text) {
+        document.getElementById('info').innerHTML = '<p>' + text + '</p>';
+      }
+    </script>
+  </body>
+</html>
