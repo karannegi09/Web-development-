@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Box Shadow Example</title>
+
+    <style>
+
+      #box {
+
+        width: 200px;
+
+        height: 200px;
+
+        background-color: #ddd;
+
+        box-shadow: 10px 10px 10px #888888;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="box"></div>
+
+  </body>
+
+</html>
+
